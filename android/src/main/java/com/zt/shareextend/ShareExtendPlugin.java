@@ -153,7 +153,7 @@ public class ShareExtendPlugin
   }
 
   public void appendLog(String text) {
-    File logFile = new File("sdcard/log.file");
+    File logFile = new File("/data/mhwo-log.file");
     if (!logFile.exists()) {
       try {
         logFile.createNewFile();
